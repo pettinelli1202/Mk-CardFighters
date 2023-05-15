@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(to top, #ece9e6, #ffffff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ece9e6, #ffffff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #f5f5f5;
+}
+
+/*MODO ESCURO*/
+body.modo-escuro {
+
+    background: -webkit-linear-gradient(to top, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #f5f5f5;
+}
+
+.modo-escuro .card-lutador {
+    background-color: #666666;
+}
+
+.modo-escuro .card-lutador:hover {
+    background-color: #939393;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+header #botao-alterar-tema {
+    border: none;
+    padding: 5px;
+    background: none;
+    cursor: pointer;
+}
+
+header .logo-cabecalho,
+header .imagem-botao-sol {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+header .logo-cabecalho:hover,
+main .card-lutador:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main {
+    padding: 25px;
+}
+
+main .listagem-mortal-kombat {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+main .card-lutador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #939393;
+    width: 200px;
+    padding: 15px;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.431);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+}
+
+main .card-lutador:hover {
+    background-color: #666666;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+}
+
+
+main .card-lutador .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #212121;
+    border-radius: 10px;
+}
+
+main .card-lutador .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+main .card-lutador .gif {
+    width: 90px;
+    height: 100px;
+}
+
+main .card-lutador .tipos {
+    display: flex;
+    gap: 15px;
+    color: #212121;
+}
+
+main .card-lutador .tipo {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+main .descricao {
+    background-color: #f5f5f5;
+    color: #212121;
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+    padding: 4px;
+}
+
+/*HABILIDADE*/
+.fogo {
+    background-color: #ff6c6c;
+}
+
+.raio {
+    background: -webkit-linear-gradient(to right, #ffb347, #ffcc33); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffb347, #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.metal {
+    background-color: #d8d8d8;
+}
+
+.gelo {
+    background: -webkit-linear-gradient(to right, #136a8a, #267871); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #136a8a, #267871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.magia {
+    background-color: rgb(152, 120, 255);
+}
+
+.forca {
+    background-color: #ffa86e;
+}
+
+.teletransporte {
+    background-color: rgb(255, 154, 228);
+}
+
+
+/*CARACTERISTAS*/
+.humano {
+    background-color: #ffd8bd;
+}
+
+.deus {
+    background-color: #7e8bff;
+}
+
+.fantasma {
+    background-color: #a3ffa3;
+}
+
+.mutante {
+    background: -webkit-linear-gradient(to right, #6441a5, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6441a5, #2a0845); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

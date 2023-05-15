@@ -1,0 +1,1 @@
+const botaoAlterarTema = document.getElementById

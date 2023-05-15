@@ -1,0 +1,18 @@
+:root{
+    --cinza:#b3b3b300;
+    --branco: #ffffff;
+    --preto: #0d0d0d;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: var(--cinza);
+    color: #000000;
+}
+
+body.modo-escuro{
+    background-color: #000000;
+    color: #ffffff;
+}

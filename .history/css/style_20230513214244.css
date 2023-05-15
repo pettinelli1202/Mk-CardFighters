@@ -1,0 +1,26 @@
+:root{
+    --cinza:#b3b3b300;
+    --branco: #ffffff;
+    --preto: #0d0d0d;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: var(--cinza);
+    color: var(--preto);
+}
+
+body.modo-escuro{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+header{
+    background-color: green;
+}
+
+header.logo-cabecalho, header.imagem-botao-sol{
+    width: 30px;
+}
